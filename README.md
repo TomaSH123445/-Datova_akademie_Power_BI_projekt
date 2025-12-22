@@ -1,33 +1,62 @@
 Analýza cen automobilů – Power BI projekt
 Popis projektu
-Projekt vizualizuje a analyzuje data o cenách automobilů z datasetu https://www.kaggle.com/datasets/ayeshasiddiqa123/cars-pre. Cílem je identifikovat faktory ovlivňující cenu vozidel, jako jsou značka, stáří, nájezd a technický stav, a poskytnout uživateli interaktivní nástroje pro konfiguraci nákupu/prodeje.
+
+Tento projekt se zaměřuje na vizualizaci a analýzu dat o cenách automobilů pomocí nástroje Power BI. Data pocházejí z veřejně dostupného datasetu na platformě Kaggle a cílem projektu je identifikovat hlavní faktory, které ovlivňují cenu vozidel.
+
+Projekt umožňuje uživateli interaktivně analyzovat trh s ojetými automobily a slouží jako podpůrný nástroj při rozhodování o nákupu nebo prodeji vozidla.
+
+Dataset:
+https://www.kaggle.com/datasets/ayeshasiddiqa123/cars-pre
+
 Použitá data
 
-Zdroj: Kaggle – Cars Pre dataset
+Zdroj dat: Kaggle – Cars Pre dataset
+
 Klíčové atributy:
 
-Brand (značka)
-Model
-Price (cena)
-Age (stáří)
-Mileage (nájezd)
-Condition (stav)
-Fuel Type, Transmission
+Brand – značka vozidla
 
+Model – konkrétní model
+
+Price – cena vozidla
+
+Age – stáří vozidla
+
+Mileage – nájezd (kilometry)
+
+Condition – technický stav
+
+Fuel Type – typ paliva
+
+Transmission – typ převodovky
 
 Hlavní funkce dashboardu
 
-Analýza průměrné ceny podle značky – srovnání cen a trendů mezi výrobci.
-Vliv stáří a nájezdu na cenu – interaktivní filtry pro dekády a rozsahy.
-Konfigurace pro nákup/prodej – možnost filtrovat podle převodovky, paliva a stavu vozidla.
+Analýza průměrné ceny podle značky
+Přehled a srovnání cen mezi jednotlivými výrobci, včetně identifikace prémiových značek.
 
-Insighty
+Vliv stáří a nájezdu na cenu
+Vizualizace poklesu ceny v závislosti na stáří a počtu najetých kilometrů pomocí interaktivních filtrů.
 
-Prémiové značky (BMW, Mercedes) mají nejvyšší průměrné ceny.
-Cena výrazně klesá s vyšším stářím a nájezdem.
-Hybridní a automatické vozy jsou cenově nad průměrem.
+Konfigurace pro nákup / prodej
+Možnost filtrování vozidel podle:
 
-Technologie
+typu převodovky
 
-Power BI pro vizualizace a interaktivní analýzu.
-DAX pro výpočty průměrných cen, trendů a kategorizaci.
+typu paliva
+
+technického stavu
+
+Insighty z analýzy
+
+Prémiové značky jako BMW a Mercedes-Benz vykazují nejvyšší průměrné ceny.
+
+Cena vozidla výrazně klesá s rostoucím stářím a nájezdem.
+
+Hybridní vozy a vozidla s automatickou převodovkou jsou cenově nad průměrem trhu.
+
+Použité technologie
+
+Power BI – tvorba interaktivních dashboardů a vizualizací
+
+DAX (Data Analysis Expressions) – výpočty průměrných cen, trendů a kategorizace dat
