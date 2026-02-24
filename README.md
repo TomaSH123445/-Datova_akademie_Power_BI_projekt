@@ -39,3 +39,6 @@ https://www.kaggle.com/datasets/ayeshasiddiqa123/cars-pre
 ## Použité technologie
 - **Power BI** – tvorba interaktivních dashboardů a vizualizací
 - **DAX (Data Analysis Expressions)** – výpočty průměrných cen, trendů a kategorizace dat
+
+## Nový dataset na analýzu
+https://www.kaggle.com/datasets/wardabilal/customer-shopping-behaviour-analysis?select=shopping_behavior_updated+%281%29.csv
